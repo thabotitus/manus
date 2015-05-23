@@ -1,0 +1,12 @@
+.column, .columns{
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.one{ width: 25%; }
+.two{ width: 50%; }
+.three{ width: 75%; }
+.four{ width: 100%; }
+
+img{ width: 100%; }
