@@ -2,14 +2,23 @@ $(document).ready(function(){
 
 	// Get shoes from array described in products.js
 	var shoes = products;
-	//var filteredArray = [];
 
 	// Generate products to showcase on products page
 	function buildProductPage( category ){
-		
-		$.each( buildFilteredArray( category ), function( idx,val ){
-			$("#products-list").append( buildItem( val ) );
-		});
+		// Clear all products first
+		$(".item").remove();
+
+		// if category is null return all the products
+		// otherwise use the filtered array of products
+		if(category == null){
+			$.each( shoes, function( idx,val ){
+				$("#products-list").append( buildItem( val ) );
+			});
+		}else{
+			$.each( buildFilteredArray( category ), function( idx,val ){
+				$("#products-list").append( buildItem( val ) );
+			});
+		}
 	}
 
 	// Build the individual product item to inject into DOM
@@ -23,13 +32,13 @@ $(document).ready(function(){
 
 		// Add data to object
 		var data = "<div class='title'>" + object.title + "</div>" + 
-		"<p class='description'>" + object.description + "</p>" + 
-		"<span class='price'> R " + object.price + "</span>" +
-		"<div class='tags'></div>" +
-		"<span class'button'>More Info</span>" +
-		"<span class'button'>Add To Cart</span>" +
-		"<img src='http://placehold.it/350x250' alt='" + object.image_alt + "'/>" +
-		"</div>";
+			"<p class='description'>" + object.description + "</p>" + 
+			"<span class='price'> R " + object.price + "</span>" +
+			"<div class='tags'></div>" +
+			"<span class'button'>More Info</span>" +
+			"<span class'button'>Add To Cart</span>" +
+			"<img src='http://placehold.it/350x250' alt='" + object.image_alt + "'/>" +
+			"</div>";
 
 		item.append( data );
 
@@ -50,7 +59,13 @@ $(document).ready(function(){
 		$(".category-link").click(function( e ){
 			// Prevent default behaviour from clicking
 			e.preventDefault();
-			var cat_filter;
+			// Get the name of the category
+			var cat_filter = $(this).text().toLowerCase();
+
+			// Show all products if "all" is picked
+			if( cat_filter == "all" ){
+				cat_filter = null;
+			}
 
 			// Rebuild the product page only products from the
 			// chose category
@@ -83,6 +98,6 @@ $(document).ready(function(){
 	}
 
 	// Run functions
-	buildProductPage("health");
+	buildProductPage();
 	filterbyCategory();
 });
