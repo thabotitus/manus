@@ -9,7 +9,7 @@ var products = [
 		"price" : "250",
 		"available" : true,
 		"category" : "sport",
-		"tags" : [ "men", "sport" ]
+		"tags" : [ "men","sport","health" ]
 	},
 	{
 		"title": "Second",
@@ -19,7 +19,7 @@ var products = [
 		"price" : "250",
 		"available" : true,
 		"category" : "sport",
-		"tags" : [ "women", "sport" ]
+		"tags" : [ "women","sport" ]
 	},
 	{
 		"title": "Third",
@@ -29,7 +29,7 @@ var products = [
 		"price" : "250",
 		"available" : false,
 		"category" : "sport",
-		"tags" : [ "women", "sport" ]
+		"tags" : [ "women","sport" ]
 	}
 ]
 

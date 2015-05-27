@@ -1,7 +1,6 @@
 $(document).ready(function(){
 
 	var shoes = products;
-	var tags = $(".tags");
 
 	function buildProductPage(){
 		$.each(shoes, function( idx, val ){
@@ -20,24 +19,22 @@ $(document).ready(function(){
 		var data = "<div class='title'>" + object.title + "</div>" + 
 		"<p class='description'>" + object.description + "</p>" + 
 		"<span class='price'> R " + object.price + "</span>" +
-		// "<div class='tags'>" + tagIterator( id, object.tags ) + "</div>"
+		"<div class='tags'></div>"
 		"<img src='http://placehold.it/350x250' alt='" + object.image_alt + "'/>" +
 		"</div>";
 
 		item.append( data );
 
-
 		// Append tags to the item
-		item.find(".tags");
-
-		
+		var tagDiv = item.find(".tags");
+		tagIterator( tagDiv, object.tags );
 
 		return item;
 	}
 
-	function tagIterator( id, array ){
+	function tagIterator( element, array ){
 		$.each(array, function( idx, val ){
-			
+			element.append( "<span>" + val + "</span>" );
 		});
 	}
 
