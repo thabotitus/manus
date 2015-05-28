@@ -31,13 +31,17 @@ $(document).ready(function(){
 		item.addClass("item one column");
 
 		// Add data to object
-		var data = "<div class='title'>" + object.title + "</div>" + 
+		var data = "<div class='image-container'>" + 
+			"<img src='" + object.image_path +  "' alt='" + object.image_alt + "'/>" +
+			"</div>" +
+			"<div class='title'>" + object.title + "</div>" + 
 			"<p class='description'>" + object.description + "</p>" + 
 			"<span class='price'> R " + object.price + "</span>" +
 			"<div class='tags'></div>" +
-			"<span class'button'>More Info</span>" +
-			"<span class'button'>Add To Cart</span>" +
-			"<img src='http://placehold.it/350x250' alt='" + object.image_alt + "'/>" +
+			"<div class='actions'>" + 
+			"<span class='button more-info'>More Info</span>" +
+			"<span class='button add-to-cart'>Add To Cart</span>" +
+			"</div>" +
 			"</div>";
 
 		item.append( data );
@@ -67,11 +71,17 @@ $(document).ready(function(){
 				cat_filter = null;
 			}
 
-			// Rebuild the product page only products from the
-			// chose category
+			// Rebuild the product page showing only products 
+			// from the chosen category
 			buildProductPage( cat_filter );
+			updatePageHeader( cat_filter );
 
 		});
+	}
+
+	function updatePageHeader( header ){
+		$("#header").empty();
+		$("#header").append( header );
 	}
 
 	// Build array with only filtered results
