@@ -1,5 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100);
 
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
 html,body{
 	font-family: 'Roboto Slab', serif;
 	padding: 0;
@@ -7,8 +10,10 @@ html,body{
 }
 
 .column, .columns{
-	float: left;
+	clear: both;
+	display: inline-block;
 	padding: 20px;
+	position: relative;
 	box-sizing: border-box;
 }
 
@@ -17,16 +22,27 @@ html,body{
 .three{ width: 75%; }
 .four{ width: 100%; }
 
+.block{
+
+}
+
+#main{
+
+}
+
 #content-wrapper{
 	float: left;
 }
 
 #navigation{
 	width: 100%;
-	height: 60px;
-	background: red;
+	height: 80px;
+	background: #fff;
 	float: left;
 	top: 0;
+	padding: 0 20px;
+	box-sizing: border-box;
+	box-shadow: 0px 2px 3px 3px rgba(0,0,0,0.9);
 }
 
 #navigation ul{
@@ -34,12 +50,43 @@ html,body{
 }
 
 #navigation ul li{
-	display: inline-block;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	width: 140px;
+	text-align: center;
+	margin-right: 40px;
+	border: 0px solid #ccc;
+	border-radius: 2px;
+	margin-top: 20px;
+}
+
+#navigation ul li.current-page,
+#navigation ul li:hover{
+	border-bottom: 5px solid #336E7B;
+}
+
+
+#navigation ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #336E7B;
+}
+#navigation ul li:first-child{
+	border: none;
+}
+
+#navigation img{
+	height: 40px;
 }
 
 .breadcrumb{
 	background: blue;
 	position: relative;
+	height: 20px;
+	width: 100%;
+	display: none;
 }
 
 .breadcrumb ul{
@@ -60,15 +107,81 @@ html,body{
 
 #header{
 	position: relative;
-	height: 100px;
-	background: orange;
-	float: left;
+	background: #ccc url("../images/headerBg.jpg") repeat;
+	background-position: center 500px;
+	text-transform: uppercase;
+	font-size: 3em;
+	font-weight: 400;
+	text-align: center;
+	padding: 50px 0;
+	color: #fff;
 }
 
 #home #header{
 	position: relative;
 	height: 600px;
-	background: orange;
+	background: #ccc url("../images/shoes.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#home #header #overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255, 0.6);
+	z-index: 5;
+	top: 0;
+}
+
+#home #header img{
+	position: relative;
+	z-index: 6;
+	width: 350px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#filters{
+	width: 100%;
+}
+
+#filters ul{
+	display: inline-block;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+#filters li{
+	display: inline-block;
+	width: 120px;
+	border-radius: 1px;
+	padding: 8px 0;
+	text-align: center;
+	border: 1px solid #ccc;
+	position: relative;
+}
+
+#filters li:hover{
+	background: #ccc;
+}
+
+#filters li.current{
+	background: #336E7B;
+	color: #fff;
+	border: none;
+}
+
+#filters ul li a{
+	text-decoration: none;
+	color: #222;
+}
+
+#filters li.current a{
+	color: #fff;
 }
 
 .item{
@@ -149,7 +262,7 @@ html,body{
 	overflow: hidden;
 	border: 1px solid #ccc;
 	border-radius: 1px;
-	padding: 15px;
+	padding: 10px;
 	margin-bottom: 10px;
 	box-sizing: border-box;
 }

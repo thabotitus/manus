@@ -71,6 +71,9 @@ $(document).ready(function(){
 				cat_filter = null;
 			}
 
+			$("#filters .current").removeClass("current");
+			$(this).parent().addClass("current");
+
 			// Rebuild the product page showing only products 
 			// from the chosen category
 			buildProductPage( cat_filter );
