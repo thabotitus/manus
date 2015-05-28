@@ -278,8 +278,8 @@ var products = [
 		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet posuere tellus. Vestibulum convallis, leo pharetra sollicitudin viverra, tellus libero pulvinar leo, ut lobortis dui eros sit amet felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		"price" : "250",
 		"available" : false,
-		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"category" : "formal",
+		"tags" : [ "women","formal","evening" ]
 	},
 	{
 		"title": "Fourth",
@@ -288,8 +288,8 @@ var products = [
 		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet posuere tellus. Vestibulum convallis, leo pharetra sollicitudin viverra, tellus libero pulvinar leo, ut lobortis dui eros sit amet felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		"price" : "250",
 		"available" : false,
-		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"category" : "formal",
+		"tags" : [ "women","formal","evening" ]
 	},
 	{
 		"title": "Fourth",
@@ -298,8 +298,8 @@ var products = [
 		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet posuere tellus. Vestibulum convallis, leo pharetra sollicitudin viverra, tellus libero pulvinar leo, ut lobortis dui eros sit amet felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		"price" : "250",
 		"available" : false,
-		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"category" : "formal",
+		"tags" : [ "women","formal","evening" ]
 	},
 	{
 		"title": "Fourth",
@@ -308,8 +308,8 @@ var products = [
 		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet posuere tellus. Vestibulum convallis, leo pharetra sollicitudin viverra, tellus libero pulvinar leo, ut lobortis dui eros sit amet felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		"price" : "250",
 		"available" : false,
-		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"category" : "formal",
+		"tags" : [ "women","formal","flat" ]
 	},
 	{
 		"title": "Fourth",
@@ -318,8 +318,8 @@ var products = [
 		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet posuere tellus. Vestibulum convallis, leo pharetra sollicitudin viverra, tellus libero pulvinar leo, ut lobortis dui eros sit amet felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		"price" : "250",
 		"available" : false,
-		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"category" : "formal",
+		"tags" : [ "women","formal","flat" ]
 	},
 	{
 		"title": "Fourth",
@@ -328,8 +328,8 @@ var products = [
 		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet posuere tellus. Vestibulum convallis, leo pharetra sollicitudin viverra, tellus libero pulvinar leo, ut lobortis dui eros sit amet felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		"price" : "250",
 		"available" : false,
-		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"category" : "formal",
+		"tags" : [ "women","formal","flat" ]
 	},
 	{
 		"title": "Fourth",
@@ -338,8 +338,8 @@ var products = [
 		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet posuere tellus. Vestibulum convallis, leo pharetra sollicitudin viverra, tellus libero pulvinar leo, ut lobortis dui eros sit amet felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		"price" : "250",
 		"available" : false,
-		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"category" : "formal",
+		"tags" : [ "women","formal","gladiators" ]
 	},
 	{
 		"title": "Fourth",
@@ -348,8 +348,8 @@ var products = [
 		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet posuere tellus. Vestibulum convallis, leo pharetra sollicitudin viverra, tellus libero pulvinar leo, ut lobortis dui eros sit amet felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		"price" : "250",
 		"available" : false,
-		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"category" : "formal",
+		"tags" : [ "women","formal","gladiators" ]
 	},
 	{
 		"title": "Fourth",
@@ -358,8 +358,8 @@ var products = [
 		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet posuere tellus. Vestibulum convallis, leo pharetra sollicitudin viverra, tellus libero pulvinar leo, ut lobortis dui eros sit amet felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		"price" : "250",
 		"available" : false,
-		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"category" : "formal",
+		"tags" : [ "women","formal","gladiators" ]
 	},
 	{
 		"title": "Fourth",
@@ -368,8 +368,8 @@ var products = [
 		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet posuere tellus. Vestibulum convallis, leo pharetra sollicitudin viverra, tellus libero pulvinar leo, ut lobortis dui eros sit amet felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		"price" : "250",
 		"available" : false,
-		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"category" : "safety",
+		"tags" : [ "women","safety","bella" ]
 	},
 	{
 		"title": "Fourth",
@@ -378,8 +378,8 @@ var products = [
 		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet posuere tellus. Vestibulum convallis, leo pharetra sollicitudin viverra, tellus libero pulvinar leo, ut lobortis dui eros sit amet felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		"price" : "250",
 		"available" : false,
-		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"category" : "safety",
+		"tags" : [ "women","safety","bella" ]
 	},
 	{
 		"title": "Fourth",
@@ -388,8 +388,8 @@ var products = [
 		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet posuere tellus. Vestibulum convallis, leo pharetra sollicitudin viverra, tellus libero pulvinar leo, ut lobortis dui eros sit amet felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		"price" : "250",
 		"available" : false,
-		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"category" : "safety",
+		"tags" : [ "women","safety","bella" ]
 	},
 	{
 		"title": "Fourth",
@@ -398,8 +398,8 @@ var products = [
 		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet posuere tellus. Vestibulum convallis, leo pharetra sollicitudin viverra, tellus libero pulvinar leo, ut lobortis dui eros sit amet felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		"price" : "250",
 		"available" : false,
-		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"category" : "safety",
+		"tags" : [ "women","safety","boots" ]
 	},
 	{
 		"title": "Fourth",
@@ -408,8 +408,8 @@ var products = [
 		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet posuere tellus. Vestibulum convallis, leo pharetra sollicitudin viverra, tellus libero pulvinar leo, ut lobortis dui eros sit amet felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		"price" : "250",
 		"available" : false,
-		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"category" : "safety",
+		"tags" : [ "women","safety","boots" ]
 	},
 	{
 		"title": "Fourth",
@@ -418,8 +418,8 @@ var products = [
 		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet posuere tellus. Vestibulum convallis, leo pharetra sollicitudin viverra, tellus libero pulvinar leo, ut lobortis dui eros sit amet felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		"price" : "250",
 		"available" : false,
-		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"category" : "safety",
+		"tags" : [ "women","safety","boots" ]
 	},
 	{
 		"title": "Fourth",
@@ -428,8 +428,8 @@ var products = [
 		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet posuere tellus. Vestibulum convallis, leo pharetra sollicitudin viverra, tellus libero pulvinar leo, ut lobortis dui eros sit amet felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		"price" : "250",
 		"available" : false,
-		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"category" : "safety",
+		"tags" : [ "women","safety","lemaitre" ]
 	},
 	{
 		"title": "Fourth",
@@ -438,8 +438,8 @@ var products = [
 		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet posuere tellus. Vestibulum convallis, leo pharetra sollicitudin viverra, tellus libero pulvinar leo, ut lobortis dui eros sit amet felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		"price" : "250",
 		"available" : false,
-		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"category" : "safety",
+		"tags" : [ "women","safety","lemaitre" ]
 	},
 	{
 		"title": "Fourth",
@@ -448,8 +448,8 @@ var products = [
 		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet posuere tellus. Vestibulum convallis, leo pharetra sollicitudin viverra, tellus libero pulvinar leo, ut lobortis dui eros sit amet felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		"price" : "250",
 		"available" : false,
-		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"category" : "safety",
+		"tags" : [ "women","safety","lemaitre" ]
 	},
 	{
 		"title": "Fourth",
@@ -459,7 +459,7 @@ var products = [
 		"price" : "250",
 		"available" : false,
 		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"tags" : [ "women","sport","basketball" ]
 	},
 	{
 		"title": "Fourth",
@@ -469,7 +469,7 @@ var products = [
 		"price" : "250",
 		"available" : false,
 		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"tags" : [ "women","sport","basketball" ]
 	},
 	{
 		"title": "Fourth",
@@ -479,7 +479,7 @@ var products = [
 		"price" : "250",
 		"available" : false,
 		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"tags" : [ "women","sport","basketball" ]
 	},
 	{
 		"title": "Fourth",
@@ -489,7 +489,7 @@ var products = [
 		"price" : "250",
 		"available" : false,
 		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"tags" : [ "women","sport","running" ]
 	},
 	{
 		"title": "Fourth",
@@ -499,7 +499,7 @@ var products = [
 		"price" : "250",
 		"available" : false,
 		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"tags" : [ "women","sport","running" ]
 	},
 	{
 		"title": "Fourth",
@@ -509,7 +509,7 @@ var products = [
 		"price" : "250",
 		"available" : false,
 		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"tags" : [ "women","sport","running" ]
 	},
 	{
 		"title": "Fourth",
@@ -519,7 +519,7 @@ var products = [
 		"price" : "250",
 		"available" : false,
 		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"tags" : [ "women","sport","sneakers" ]
 	},
 	{
 		"title": "Fourth",
@@ -529,7 +529,7 @@ var products = [
 		"price" : "250",
 		"available" : false,
 		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"tags" : [ "women","sport","sneakers" ]
 	},
 	{
 		"title": "Fourth",
@@ -539,7 +539,7 @@ var products = [
 		"price" : "250",
 		"available" : false,
 		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
+		"tags" : [ "women","sport","sneakers" ]
 	}
 ]
 
