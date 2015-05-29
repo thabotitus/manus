@@ -111,7 +111,34 @@ $(document).ready(function(){
 		});
 	}
 
+	// Validate Form
+	function validateForm(){
+
+		// Get the contact form
+		var contactForm = $("#contact-form");
+		var fields = $("#contact-form input");
+		var formInvalid = false;
+
+		// Loop through each field and see if there's a value
+		$("#contact-form input[type='submit']").click(function( e ){
+			e.preventDefault();
+
+			$.each(fields, function( idx, val ){
+				if ( val.value == "" ){
+					formInvalid = true;
+				}
+			});
+
+			if ( formInvalid ){
+				$("#invalid").show();
+			}else{
+				$(location).attr('href',"../pages/sign-up-success.html");
+			}
+		});
+	}
+
 	// Run functions
 	buildProductPage();
 	filterbyCategory();
+	validateForm();
 });

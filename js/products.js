@@ -242,36 +242,6 @@ var products = [
 		"tags" : [ "men","sport","gym" ]
 	},
 	{
-		"title": "Nike",
-		"image_path" : "../images/products/males/sport/soccer/1.png",
-		"image_alt" : "Description of Shoe",
-		"description" : "Mercurial Vapor X FG.",
-		"price" : "1500.00",
-		"available" : false,
-		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
-	},
-	{
-		"title": "Adidas",
-		"image_path" : "../images/products/males/sport/soccer/2.png",
-		"image_alt" : "Description of Shoe",
-		"description" : "Predator LZ TRX FG.",
-		"price" : "1600.00",
-		"available" : false,
-		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
-	},
-	{
-		"title": "Puma",
-		"image_path" : "../images/products/males/sport/soccer/3.png",
-		"image_alt" : "Description of Shoe",
-		"description" : "EVOSPEED 1.2 SL.",
-		"price" : "1300.00",
-		"available" : false,
-		"category" : "sport",
-		"tags" : [ "men","sport","soccer" ]
-	},
-	{
 		"title": "Promo",
 		"image_path" : "../images/products/females/formal/evening/1.png",
 		"image_alt" : "Description of Shoe",
@@ -450,96 +420,6 @@ var products = [
 		"available" : false,
 		"category" : "safety",
 		"tags" : [ "women","safety","lemaitre" ]
-	},
-	{
-		"title": "Nike",
-		"image_path" : "../images/products/females/sport/basketball/1.png",
-		"image_alt" : "Description of Shoe",
-		"description" : "Hyperdunk 2014 Red for Ladies.",
-		"price" : "2000.00",
-		"available" : false,
-		"category" : "sport",
-		"tags" : [ "women","sport","basketball" ]
-	},
-	{
-		"title": "Adidas",
-		"image_path" : "../images/products/females/sport/basketball/2.png",
-		"image_alt" : "Description of Shoe",
-		"description" : " Crazy Strike.",
-		"price" : "2500.00",
-		"available" : false,
-		"category" : "sport",
-		"tags" : [ "women","sport","basketball" ]
-	},
-	{
-		"title": "Reebok",
-		"image_path" : "../images/products/females/sport/basketball/3.png",
-		"image_alt" : "Description of Shoe",
-		"description" : "The rebound.",
-		"price" : "1900.00",
-		"available" : false,
-		"category" : "sport",
-		"tags" : [ "women","sport","basketball" ]
-	},
-	{
-		"title": "Nike",
-		"image_path" : "../images/products/females/sport/running/1.png",
-		"image_alt" : "Description of Shoe",
-		"description" : "Free 5.0 (G.S) pink foil black cool.",
-		"price" : "700.00",
-		"available" : false,
-		"category" : "sport",
-		"tags" : [ "women","sport","running" ]
-	},
-	{
-		"title": "Adidas",
-		"image_path" : "../images/products/females/sport/running/2.png",
-		"image_alt" : "Description of Shoe",
-		"description" : "adifast SL-K.",
-		"price" : "600.00",
-		"available" : false,
-		"category" : "sport",
-		"tags" : [ "women","sport","running" ]
-	},
-	{
-		"title": "Reebok",
-		"image_path" : "../images/products/females/sport/running/3.png",
-		"image_alt" : "Description of Shoe",
-		"description" : "Ladies ZigTech shark.",
-		"price" : "700.00",
-		"available" : false,
-		"category" : "sport",
-		"tags" : [ "women","sport","running" ]
-	},
-	{
-		"title": "Puma",
-		"image_path" : "../images/products/females/sport/sneakers/1.png",
-		"image_alt" : "Description of Shoe",
-		"description" : "Drift Cat.",
-		"price" : "500.00",
-		"available" : false,
-		"category" : "sport",
-		"tags" : [ "women","sport","sneakers" ]
-	},
-	{
-		"title": "Puma",
-		"image_path" : "../images/products/females/sport/sneakers/2.png",
-		"image_alt" : "Description of Shoe",
-		"description" : "Belerinki.",
-		"price" : "450.00",
-		"available" : false,
-		"category" : "sport",
-		"tags" : [ "women","sport","sneakers" ]
-	},
-	{
-		"title": "Converse",
-		"image_path" : "../images/products/females/sport/sneakers/3.png",
-		"image_alt" : "Description of Shoe",
-		"description" : "Black.",
-		"price" : "600.00",
-		"available" : false,
-		"category" : "sport",
-		"tags" : [ "women","sport","sneakers" ]
 	}
 ]
 
