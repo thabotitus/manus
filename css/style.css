@@ -10,8 +10,8 @@ html,body{
 }
 
 .column, .columns{
-	clear: both;
 	display: inline-block;
+	float: left;
 	padding: 20px;
 	position: relative;
 	box-sizing: border-box;
@@ -26,19 +26,44 @@ html,body{
 
 }
 
+.center{
+	width: 960px;
+	float: left;
+	margin: 0 50%;
+	transform: translateX(-50%);
+}
+
 #main{
 
 }
 
 #content-wrapper{
 	float: left;
+	width: 100%;
+}
+
+.section-heading{
+	background: #f9f9f9;
+	width: 100%;
+	height: 80px;
+	text-align: center;
+}
+
+.section-heading h3{
+	padding: 15px 40px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	width: 200px;
+	display: inline-block;
+	margin-top: 15px;
+	text-transform: uppercase;
 }
 
 #navigation{
 	width: 100%;
 	height: 80px;
 	background: #fff;
-	float: left;
+	
 	top: 0;
 	padding: 0 20px;
 	box-sizing: border-box;
@@ -119,7 +144,7 @@ html,body{
 
 #home #header{
 	position: relative;
-	height: 600px;
+	height: 400px;
 	background: #ccc url("../images/shoes.jpg") no-repeat center center;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
@@ -189,6 +214,8 @@ html,body{
 	margin-bottom: 20px;
 	padding: 15px;
 	position: relative;
+	float: left;
+
 }
 
 .item .title{
@@ -201,9 +228,10 @@ html,body{
 }
 
 .item .description{
-	font-size: 0.8em;
+	font-size: 0.9em;
 	line-height: 20px;
 	text-align: center;
+	margin: 15px 0;
 }
 
 .item .tags{
@@ -222,7 +250,6 @@ html,body{
 }
 
 .item .actions{
-	background: red;
 	margin-top: 20px;
 }
 
@@ -246,12 +273,16 @@ html,body{
 
 .item .price{
 	position: absolute;
-	top: 0;
-	padding: 7px 15px;
-	border: 1px solid #ccc;
+	top: 15px;
+	margin-right: 15px;
+	padding: 9px 18px;
+	border: 0px solid #ccc;
 	background: #fff;
 	right: 0;
 	z-index: 10;
+	background: #F9BF3B;
+	border-left: 2px solid #F5AB35;
+	border-bottom: 2px solid #F5AB35;
 }
 
 
@@ -273,4 +304,98 @@ html,body{
 
 .item img{
 
+}
+
+#full-catalogue-link{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#full-catalogue-link a{
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 1px solid #ccc;
+	color: #222;
+	border-bottom: 4px solid #ccc;
+}
+
+#full-catalogue-link a:hover{
+	opacity: 0.8;
+}
+
+#sign-up-banner{
+	background: #f1f1f1;
+	padding: 50px 0;
+	text-align: center;
+}
+
+#sign-up-banner h3{
+	text-transform:  uppercase;
+	font-size: 1.3em;
+	margin-bottom: 15px;
+}
+
+#sign-up-banner input[type="text"]{
+	display: inline-block;
+	height: 30px;
+	width: 400px;
+	padding: 0 20px;
+}
+
+#sign-up-banner input[type="submit"]{
+	display: inline-block;
+	height: 35px;
+	width: 100px;
+}
+
+#footer-top{
+	height: 400px;
+	background: #222a2d;
+}
+
+#footer-top img{
+	width: 200px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+
+#footer-top .copyright{
+	color: #f1f1f1;
+	line-height: 20px;
+	font-size: 0.8em;
+}
+
+#footer-top #sitemap h4{
+	font-size: 1.5em;
+	color: #f1f1f1;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+#footer-top #sitemap #sitemap-list li{
+	height: 40px;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+	margin-bottom: 15px;
+}
+
+#footer-top #sitemap #sitemap-list li a{
+	text-decoration: none;
+	color: #f1f1f1;
+}
+
+#footer-top #sitemap #sitemap-list li a:hover{
+	font-style: italic;
+}
+
+#footer-bottom{
+	background: #171f21;
+	text-align: center;
+}
+
+#footer-bottom p{
+	color: #f1f1f1;
+}
+
+#footer-bottom #authors{
+	color: #3f4344;
 }

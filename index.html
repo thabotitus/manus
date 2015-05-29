@@ -2,114 +2,111 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta charset="utf-8">
+	<!--<meta charset="utf-8">-->
 	<title>MANU's Shoe Emporium &reg;</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 
 <body id="home">
 
 	<div id="navigation">
-		<ul>
-			<li><a href="#"><img src="images/ManusLogoTrans.png" alt="Manus Logo"></a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="pages/products.html">Products</a></li>
-			<li><a href="#">Contact</a></li>
-			<li><a href="#">Cart</a></li>
-		</ul>
+		<div class="center">
+			<ul>
+				<li><a href="#"><img src="images/ManusLogoTrans.png" alt="Manus Logo" /></a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="pages/products.html">Products</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Cart</a></li>
+			</ul>
+		</div>
 	</div><!-- /navigation -->
 
 	<div id="main">
 
 		<div id="header" class="section four columns">
 			<div id="overlay"></div>
-			<img src="images/ManusLogoTrans.png" alt="Manus Logo">
+			<img src="images/ManusLogoTrans.png" alt="Manus Logo" />
 		</div><!-- /header -->
 
 		<div id="content-wrapper">
-
-			<div id="latest-items" class="section four columns">
-				<div class="section-heading">Latest Items</div>
-
-				<div class="item one column">
-					<div class="image-container">
-						<img src="http://placehold.it/350x250" alt="Image Title">
-					</div>
-					
-					<div class="title">Title</div>
-					<p class="description">Item Description</p>
-					<span class="price">R 234</span>
-
-					<div class="actions">
-						<span class="button more-info">More Info</span>
-						<span class="button add-to-cart">Add To Cart</span>
-					</div>	
-				</div>
-
-				<div class="item one column">
-					<div class="image-container">
-						<img src="http://placehold.it/350x350" alt="Image Title">
-					</div>
-					
-					<div class="title">Title</div>
-					<p class="description">Item Description</p>
-					<span class="price">R 234</span>
-
-					<div class="actions">
-						<span class="button more-info">More Info</span>
-						<span class="button add-to-cart">Add To Cart</span>
-					</div>	
-				</div>
-
-				<div class="item one column">
-					<div class="image-container">
-						<img src="http://placehold.it/350x250" alt="Image Title">
-					</div>
-					
-					<div class="title">Title</div>
-					<p class="description">Item Description</p>
-					<span class="price">R 234</span>
-
-					<div class="actions">
-						<span class="button more-info">More Info</span>
-						<span class="button add-to-cart">Add To Cart</span>
-					</div>	
-				</div>
-
-				<div class="item one column">
-					<div class="image-container">
-						<img src="http://placehold.it/350x250" alt="Image Title">
-					</div>
-					
-					<div class="title">Title</div>
-					<p class="description">Item Description</p>
-					<span class="price">R 234</span>
-
-					<div class="actions">
-						<span class="button more-info">More Info</span>
-						<span class="button add-to-cart">Add To Cart</span>
-					</div>	
-				</div>
-
-				<div class="button">See Full Catalogue</div>
+			<div class="section-heading">
+				<h3>Latest Items</h3>
 			</div>
 
+			<div id="latest-items" class="section four columns">
+
+				<div class="item one column">
+					<div class="image-container">
+						<img src="images/products/males/formal/loafers/1.png" alt="Description of Shoe" />
+					</div>
+					<div class="title"><h4>Leather Loafers</h4></div>
+					<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<span class="price"> R 250</span>
+				</div>
+
+				<div class="item one column">
+					<div class="image-container">
+						<img src="images/products/females/formal/gladiators/3.png" alt="Description of Shoe" />
+					</div>
+					<div class="title"><h4>Leather Loafers</h4></div>
+					<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<span class="price"> R 250</span>
+				</div>
+
+				<div class="item one column">
+					<div class="image-container">
+						<img src="images/products/females/formal/flat/1.png" alt="Description of Shoe" />
+					</div>
+					<div class="title"><h4>Leather Loafers</h4></div>
+					<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<span class="price"> R 250</span>
+				</div>
+
+				<div class="item one column">
+					<div class="image-container">
+						<img src="images/products/males/formal/monk_strap/1.png" alt="Description of Shoe" />
+					</div>
+					<div class="title"><h4>Leather Loafers</h4></div>
+					<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<span class="price"> R 250</span>
+				</div>
+			</div>
+
+			<div id="full-catalogue-link"><a class="button" href="pages/products.html">See Full Catalogue</a></div>
+
 			<div id="sign-up-banner" class="section four columns">
-				<h2>Sign Up To get notified about our latest products</h2>
+				<h3>Sign Up To get notified about our latest products</h3>
+
 				<form method="post" action="pages/sign-up-success.html">
-					<input type="text" />
-					<input type="submit" value="Sign Up" />
+					<fieldset>
+						<input type="text" />
+						<input type="submit" value="Sign Up" />
+					</fieldset>
 				</form>
+
 			</div>
 			
 		</div><!-- /content-wrapper -->
 
 		<div id="footer">
 			<div id="footer-top" class="section four columns">
-				Footer Top
+				<div class="one column">
+					<img src="images/ManusLogoTransWhite.png" alt="Manus Logo" />
+					<p class="copyright">The copyright in this website and the material on this website( including without limitation the text, computer code, artwork, photographs, images, music, audio material, video material and audio-visual material on this website) is owned by MANU's Shoe Emporium</p>
+				</div>
+				<div id="sitemap" class="two columns">
+					<h4>Site Map</h4>
+
+					<ul id="sitemap-list">
+						<li><a href="/">Home</a></li>
+						<li><a href="pages/about.html">About Us</a></li>
+						<li><a href="pages/products.html">Products</a></li>
+						<li><a href="pages/contact.html">Contact Us</a></li>
+					</ul>
+				</div>
 			</div><!-- /footer-top -->
 			<div id="footer-bottom" class="section four columns">
-				Footer Bottom
+				<p>&copy; MANU's Shoe Emporium | <span id="authors">Website by Emmanuel Mwezi &amp; Thabo Titus</span></p>
 			</div><!-- /footer-bottom -->
 		</div><!-- /footer -->	
 	</div><!-- /main -->

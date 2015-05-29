@@ -34,7 +34,7 @@ $(document).ready(function(){
 		var data = "<div class='image-container'>" + 
 			"<img src='" + object.image_path +  "' alt='" + object.image_alt + "'/>" +
 			"</div>" +
-			"<div class='title'>" + object.title + "</div>" + 
+			"<div class='title'><h4>" + object.title + "</h4></div>" + 
 			"<p class='description'>" + object.description + "</p>" + 
 			"<span class='price'> R " + object.price + "</span>" +
 			"<div class='tags'></div>" +
@@ -82,6 +82,7 @@ $(document).ready(function(){
 		});
 	}
 
+	// Update page heading when category is selected
 	function updatePageHeader( header ){
 		$("#header").empty();
 		$("#header").append( header );
